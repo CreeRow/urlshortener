@@ -43,8 +43,8 @@ const keys = [
 //Init connection to MYSQL db
 var connection = mysql.createConnection({
     host: "localhost",
-    user: "creerow",
-    password: "Jojo2003!!",
+    user: "USERNAME",
+    password: "PASSWORD",
     database: "urlshortener"
   });
 connection.connect(function(err) {
