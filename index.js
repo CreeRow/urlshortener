@@ -1,4 +1,4 @@
-//index.js - ${db} URL shortener - Maximilian Schiller
+//index.js - URL shortener - Maximilian Schiller
 const express = require('express');
 const requests = require('request');
 const app = express();
