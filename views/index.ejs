@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <title><%=domain%> - Beta Huhn URL Shortener</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="robots" content="nofollow">
+        <link rel="stylesheet" href="main.css">
+        <link rel="icon" href="http://www.<%=domain%>/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="http://www.<%=domain%>/favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <main>
+            <img src="image.png" alt="FCK-AfD" width="200" height="200">
+            <h1>Du wirst gleich weitergeleitet.</h1>
+            <script>
+                setTimeout(function () {
+                   // after 2 seconds
+                   window.location = "<%=url%>";
+                }, 2000)
+              </script>
+        </main>
+        <script src="main.js"></script>
+    </body>
+</html>

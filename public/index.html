@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <title>Beta Huhn - URL Shortener</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="google-site-verification" content="WT7HV-y_YFwgr8F9mgBk7_YHPNtcOJyvaCrFTp7Ms_0" />
+        <link rel="stylesheet" href="main.css">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        
+        <script type="text/javascript">
+          if (screen.width <= 699) {
+           document.location = "/mobile";
+          }
+          </script>
+    </head>
+    <body>
+        <main>
+            <a href="/" ><img src="image.png" alt="Betahuhn" width="200" height="200"></a>
+            <h1>Gib eine URL ein die du kürzen willst:</h1>
+            <input type="text" id="url-input"  placeholder="betahuhn.de/">
+            <center><pre id="custom-input"></pre></center>
+            <div class="btn-group">
+                <button id="shorten-button" onclick="button()">Kürzen!</button>
+                <button id="custom-button">Custom</button>
+            </div>
+           
+              <pre id="out">Deine URL wird hier angezeigt...</pre>
+              <pre id="copy-button"></pre>
+            
+        </main>
+        <footer>
+               <!-- <center><div class="banner">
+                        <a href="/imprint" >Impressum</a>
+                        
+          -
+      
+                        <a href="/about" >About</a>
+                        -
+          
+                        <a href="/privacy" >Datenschutz</a>
+                      </div></center>
+                    -->
+        </footer>
+        <script src="main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+{
+  "name": "urlshortener",
+  "version": "3.0.0",
+  "description": "Url Shortener Web App ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "url",
+    "shortener",
+    "fck-afd"
+  ],
+  "author": "Maximilian Schiller",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.17.1",
+    "shortid": "^2.2.14",
+    "tld-enum": "^2.0.6",
+    "valid-url": "^1.0.9",
+    "mysql":"^2.17.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CreeRow/fckafd-urlshortener.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CreeRow/fckafd-urlshortener/issues"
+  },
+  "homepage": "https://github.com/CreeRow/fckafd-urlshortener#readme"
+}
