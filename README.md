@@ -13,6 +13,8 @@ You could shorten https://github.com/betahuhn/urlshortener.git to http://betahuh
 
 For reference go to http://betahuhn.de
 
+**Setup:**
+
 To install it:
 ```
 git clone https://github.com/betahuhn/urlshortener
