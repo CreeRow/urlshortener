@@ -24,10 +24,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CreeRow/fckafd-urlshortener.git"
+    "url": "git+https://github.com/BetaHuhn/urlshortener.git"
   },
   "bugs": {
-    "url": "https://github.com/CreeRow/fckafd-urlshortener/issues"
+    "url": "https://github.com/BetaHuhn/urlshortener/issues"
   },
-  "homepage": "https://github.com/CreeRow/fckafd-urlshortener#readme"
+  "homepage": "https://github.com/BetaHuhn/urlshortener#readme"
 }
